@@ -27,7 +27,9 @@ namespace ConsoleApp1
             Student s3 = new Student();
 
             s1.printDetails("john",12,"java",20);
+            Console.WriteLine();
             s2.printDetails("alice", 12, "java", 20);
+            Console.WriteLine();
             s3.printDetails("Bob", 12, "java", 20);
 
         }

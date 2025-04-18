@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\Properties"
   ],
   "SelectedNode": "\\Program.cs",
+=======
+    "\\BookManagement",
+    "\\BookManagement\\BookServices",
+    "\\BookManagement\\Controllers"
+  ],
+  "SelectedNode": "\\BookManagement\\Program.cs",
+>>>>>>> b730969 (RestAPIs)
   "PreviewInSolutionExplorer": false
 }

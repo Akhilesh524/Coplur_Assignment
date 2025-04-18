@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "BookManagement.Controllers.BookController",
+    "Method": "addBook",
+    "RelativePath": "api/Book/addBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagement.Controllers.BookController",
+    "Method": "GetAllBook",
+    "RelativePath": "api/Book/allBook",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagement.Controllers.BookController",
+    "Method": "UpadateBook",
+    "RelativePath": "api/Book/updateBook",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

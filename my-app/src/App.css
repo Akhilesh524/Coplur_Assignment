@@ -1,0 +1,30 @@
+
+.App{
+    text-align: center;
+}
+
+.header{
+    background-color: blue;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.footer{
+    background-color: blue;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    font-weight: 800;
+    padding-top: 40px;
+}

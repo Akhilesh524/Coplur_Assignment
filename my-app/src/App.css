@@ -26,18 +26,12 @@
     z-index: 1;
     color: white;
     font-weight: 800;
-    padding-top: 40px;
+    padding-top: 20px;
 }
-.tableContainer{
-    margin-top:130px;
-    margin-left: 500px;
-
-}
-
 table{
     border-collapse: collapse;
     border: 2px solid blue;
-    font-size: 1rem;
+    font-size: 0.5rem;
     letter-spacing: 1px;
 }
 th,td{

@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import './App.css'
+
 export default class StudentsTable extends Component {
   render() {
+   const res = this.props.result;
     const marksList = this.props.marksList.map((student)=>
-    
+  
     <tr key={student}>
         <td>{student.name}</td>
         <td>{student.math}</td>
@@ -13,6 +15,7 @@ export default class StudentsTable extends Component {
         <td>{
            (((student.math+student.chemistry+student.physics)/300)*100).toFixed(1)
   }</td>
+  <td>{res}</td>
     </tr>
 
 
@@ -20,25 +23,26 @@ export default class StudentsTable extends Component {
     )
     return (
       <div className='tableContainer'>
-        <table>
+        <table className="table table-success table-striped-columns">
             <thead>
              <tr>
                 <th>
                     name
                 </th>
                 <th>
-                    subect_1
+                    subject_1
                 </th>
                 <th>
-                    subect_2
+                    subject_2
                 </th>
                 <th>
-                    subect_3
+                    subject_3
                 </th>
                 <th>
                     total
                 </th>
                 <th>percentage</th>
+                <th>result</th>
              </tr>
             </thead>
             <tbody>

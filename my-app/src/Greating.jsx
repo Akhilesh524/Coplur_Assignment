@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Counter from './Counter'
 
 export default class Greating extends Component {
   constructor(props){

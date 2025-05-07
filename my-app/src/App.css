@@ -15,6 +15,11 @@
     font-weight: 800;
     padding-top: 10px;
 }
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
 
 .footer{
     background-color: blue;
@@ -37,4 +42,13 @@ table{
 th,td{
     border: 1px  solid blue;
     padding:10px;
+}
+
+.form{
+    border: 2px  solid blue;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 550px;
+    margin-top: 100px;
 }
